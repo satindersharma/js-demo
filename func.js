@@ -101,3 +101,5 @@
 
 // const result = func1(10);
 // console.log(result);
+
+

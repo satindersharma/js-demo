@@ -42,6 +42,9 @@ console.log('document', document)
 // console.log('y', y.innerText)
 // console.log('y', y.innerHTML)
 
-let z = document.querySelectorAll('.row')
+// let z = document.querySelectorAll('.row')
 
-console.log('z', z)
+// console.log('z', z)
+
+const car = ["maruti", "tata", "honda", "hyundai"];
+        document.write(car);
