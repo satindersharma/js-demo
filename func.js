@@ -10,7 +10,7 @@
 // console.log(a);
 
 
-// way 1
+// way 1st
 // function func1(){
 
 //     console.log('func1')
