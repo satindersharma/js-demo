@@ -48,3 +48,14 @@ console.log('document', document)
 
 const car = ["maruti", "tata", "honda", "hyundai"];
         document.write(car);
+
+
+        console.log('a');
+        //  sync fun() prmosie sync await 
+        
+        setTimeout(()=>{
+            console.log('setTimeout')
+        }, 5000) // asyncronous function
+         console.log('b');
+         const r = 5;
+         console.log('r', r)
