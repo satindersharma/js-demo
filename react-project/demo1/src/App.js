@@ -1,5 +1,6 @@
 
 import './App.css';
+import { ConfigProvider, theme } from 'antd';
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 import About from './About';
 import Home from './Home';
@@ -8,6 +9,12 @@ import Home from './Home';
 
 function App() {
   return (
+
+    <ConfigProvider
+    theme={{
+      algorithm: theme.defaultAlgorithm,
+    }}
+  >
     <BrowserRouter>
             
             
@@ -54,6 +61,8 @@ function App() {
     </Routes>
     
     </BrowserRouter>
+  </ConfigProvider>
+
   );
 }
 

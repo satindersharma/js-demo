@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom"
+import { Checkbox,  Radio, Switch } from 'antd';
 const Home = () => {
   return (
     <div>
@@ -12,6 +13,10 @@ const Home = () => {
                         {/* <a href="/about">About</a> */}
                         <Link to="/about">About</Link>
                     </h1>
+
+        <Radio >Radio</Radio>
+        <Checkbox>CHeck</Checkbox>
+        <Switch>Swidth</Switch>
                 </nav>
     </div>
   )
