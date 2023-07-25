@@ -1,0 +1,13 @@
+
+
+
+.btn-dark{
+    background-color: #fff;
+}
+
+.btn_info{
+    background-color: coral;
+}
+.btn_info:hover{
+    background-color: rgb(212, 61, 6);
+}

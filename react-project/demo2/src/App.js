@@ -1,7 +1,12 @@
 import logo from './logo.svg';
 
 import {useState, useEffect} from 'react'
-import './App.css';
+import "./App.css"
+import "./CC.css"
+
+import styles from "./App.module.css"
+
+  
 
 function App() {
 
@@ -17,16 +22,17 @@ function App() {
 
   // console.log('counter',counter)
   
-  useEffect(()=>{
-    console.log('useEffect will run on every change time. counter=>',counter)
-  },[counter])
 
   return (
     <div className="App">
       <h1>App</h1>
       <h2>{counter}</h2>
-      <button onClick={()=>setCounter(counter+1)}>Increase</button>
-      <button onClick={()=>setCounter(counter-1)}>Decrease</button>
+      <button className='btn' onClick={()=>setCounter(counter+1)}>Increase</button>
+      <button className='btn btn-warning' onClick={()=>setCounter(counter-1)}>Decrease</button>
+      <button className={styles.btn_info}>SUbmit</button>
+      <button className={`btn ${styles.btn_info}`}>Cancel</button>
+
+      <img src="images/jman.png" alt="" className='img' />
     </div>
   );
 }
