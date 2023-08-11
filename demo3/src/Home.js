@@ -5,7 +5,7 @@ export default function Home() {
     <>
         <div>
       <p><Link to="/" >Home</Link></p>
-      <p><Link to="/about" >About</Link></p>
+      <p><Link to="/about" >About me</Link></p>
     </div>
     <h4
     

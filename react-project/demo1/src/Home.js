@@ -1,17 +1,15 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import { Checkbox,  Radio, Switch } from 'antd';
-const Home = () => {
+const Home= () => {
   return (
     <div>
 
 
-
-
-                <nav>
+         <nav>
                     <h1>
                         {/* <a href="/about">About</a> */}
-                        <Link to="/about">About</Link>
+                        <Link to="/form">Form</Link>
                     </h1>
 
         <Radio >Radio</Radio>
@@ -22,4 +20,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default App

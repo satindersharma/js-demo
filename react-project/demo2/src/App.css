@@ -20,7 +20,7 @@
 
 .btn:hover{
 
-    background-color: rgb(4, 227, 227);
+    background-color: rgb(7, 231, 231);
 
 }
 
@@ -32,4 +32,12 @@
 .img{
     width: 300px;
     align-self: center;
+}
+
+p{
+    background-color: blue;
+    height: 120px;
+    font-size: 100px;
+    display: inline;
+    
 }
