@@ -4,8 +4,8 @@ import { ConfigProvider, theme } from 'antd';
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 import About from './About';
 import Home from './Home';
-
-
+import Contact from './Contact';
+import  Feedback  from './Feedback';
 
 function App() {
   return (
@@ -56,8 +56,9 @@ function App() {
         </nav>
     <Routes>
       <Route path='/' element={<Home/>} />
-      <Route path='/about' element={<About/>} />
-      
+      <Route path='/about' element={<About/>}/>
+      <Route path ='/contact' element={<Contact/>}/>
+      <Route path ='/feedback' element={<Feedback/>}/>
     </Routes>
     
     </BrowserRouter>

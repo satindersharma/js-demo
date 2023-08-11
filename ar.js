@@ -70,9 +70,9 @@ console.log('============================================');
  // javascript is dynamically types, signle threaded language, sycnronous 
 
 
- function fun(){
-    console.log('fun')
- }
+//  function fun(){
+//     console.log('fun')
+//  }
 
 
 
